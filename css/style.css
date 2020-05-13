@@ -1,0 +1,127 @@
+html,
+body,
+header,
+#intro {
+    height: 90%;
+    scroll-behavior: smooth;
+}
+.menu-icon{
+    color: #24355C;
+}
+.navbar-brand,
+.nav-link {
+    color: #24355C;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.navbar-brand:hover{
+    color: white;
+    transition: ease-in 0.3s;
+}
+.nav-link:hover {
+    color: white;
+    font-size: 20px;
+    transition: ease-in 0.3s;
+}
+#intro {
+    color: #24355C;
+    background: #aee7ff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn-outline-white{
+    color: #24355C;
+    width: 40%;
+    border: solid 3px #24355C;
+}
+.btn-outline-white:hover{
+    opacity: 0.7;
+    color: white;
+    border: solid 2px white;
+    transition: ease-in 0.2s;
+}
+.divider{
+    border: solid 2px #24355C;
+}
+.divider,
+.divider-dark,
+.divider-light{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+}
+.divider-dark{
+    border: solid 2px #24355C;
+}
+.divider-light{
+    border: solid 2px #24355C;
+}
+.scrolling-navbar {
+    background-color: #aee7ff;
+}
+@media (max-width: 575px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+#best-features{
+    color: #24355C;
+}
+#examples-title{
+    color: #24355C;
+}
+.my-4{
+    padding-top: 18%;
+}
+.my-4-2{
+    padding-top: 10%;
+}
+.text-examples,
+.my-4,
+.my-4-2{
+    color: #24355C;
+    display: flex;
+    justify-content: center;
+}
+.text-examples{
+    font-size: 20px;
+}
+#footer{
+    background-color: #aee7ff;
+    color: #24355C;
+}
+.link-footer{
+     color: #24355C;
+ }
+.link-footer:link{
+    color: #24355C;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link-footer:hover{
+    color: white;
+    transition: ease-in 0.2s;
+}
+.photo {
+    overflow: hidden;
+}
+
+.photo img {
+    transition: all 0.3s ease-in-out;
+}
+
+.photo:hover img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
